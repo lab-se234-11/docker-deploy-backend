@@ -52,7 +52,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: aphichaya8/234-deploylab-backend:latest
+          tags: siwali/234-deploylab-backend:latest
 
       - name: Copy file via SSH
         uses: appleboy/scp-action@v0.1.7
